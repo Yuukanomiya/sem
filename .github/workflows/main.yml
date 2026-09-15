@@ -18,7 +18,7 @@ jobs:
           distribution: 'oracle' # Matches Oracle OpenJDK in your IDE settings
 
       - name: Compile with Maven
-        run: mvn compile
+        run: mvn package
 
       - name: Build Docker Image
         run: docker build -t devopsimage .
