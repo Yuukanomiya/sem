@@ -1,9 +1,8 @@
 Hello
 Hi
 
+# Hello Hi
 
-Hi again. This is .
-![workflow](https://github.com/Yuukanomiya/sem/actions/workflows/main.yml/badge.svg)
+Hi again. This is . [![A workflow for my Hello World App](https://github.com/Yuukanomiya/seMethod/actions/workflows/main.yml/badge.svg)](https://github.com/Yuukanomiya/seMethod/actions)
 
-Hello again.
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/Yuukanomiya/sem/init/develop?style=flat-square)
+[![Release](https://img.shields.io/github/v/release/Yuukanomiya/seMethod?include_prereleases)](https://github.com/Yuukanomiya/seMethod/releases)
