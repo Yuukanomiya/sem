@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jre
-WORKDIR /app
-COPY target/*.jar app.jar
-ENTRYPOINT ["java", "-jar", "app.jar"]
+FROM amazoncorretto:17
+COPY ./target/seMethod-1.0-SNAPSHOT-jar-with-dependencies.jar /tmp
+WORKDIR /tmp
+ENTRYPOINT ["java", "-jar", "seMethod-1.0-SNAPSHOT-jar-with-dependencies.jar"]
