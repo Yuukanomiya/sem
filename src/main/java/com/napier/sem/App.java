@@ -65,7 +65,7 @@ public class App {
             // Create an SQL statement
             Statement stmt = con.createStatement();
 
-            // SQL query joining tables for current (9999-01-01) details
+            // SQL query joining tables based on schema diagram
             String strSelect =
                     "SELECT e.emp_no, e.first_name, e.last_name, " +
                             "       t.title, s.salary, d.dept_name, " +
